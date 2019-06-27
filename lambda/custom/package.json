@@ -1,0 +1,13 @@
+{
+  "name": "alexa-youtube-player-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Matteo Brogin",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
