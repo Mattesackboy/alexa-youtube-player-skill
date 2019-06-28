@@ -43,7 +43,7 @@
         {
           "name": "AMAZON.HelpIntent",
           "samples": [
-            "i need help here :("
+            "i need help here"
           ]
         }
       ]
