@@ -11,8 +11,7 @@ const API_BASE_URI = "http://YOUR-DOMAIN" //Put here URL of the API, e.g: http:/
 
 const LaunchRequestHandler = {
   canHandle(handlerInput) {
-    return handlerInput.requestEnvelope.request.type === 'LaunchRequest' ||
-    handlerInput.requestEnvelope.request.type === 'IntentRequest'
+    return handlerInput.requestEnvelope.request.type === 'LaunchRequest'
   },
   async handle(handlerInput) {
     const { responseBuilder } = handlerInput
